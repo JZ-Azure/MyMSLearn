@@ -42,7 +42,19 @@ Azure VMware Solution lets you run your VMware workloads in Azure with seamless 
   - Vertical scaling: increasing or decreasing the capabilities of resources
   - Horizontal scaling: adding or subtracting the number of resources
 
-
+## Cloud service types
+- Infrastructure as a Service
+  - the most flexible category of cloud services
+  - you’re essentially renting the hardware in a cloud datacenter, but what you do with that hardware is up to you
+  - Scenarios: lift-and-shift; testing and development
+- Platform as a Service
+  - CSP maintains the physical infrastructure, physical security, and connection to the internet
+  - CSP also maintains the operating systems, middleware, development tools, and business intelligence services
+  - you don't have to worry about the licensing or patching for operating systems and databases
+  - Scenarios: Development framework; Analytics or business intelligence
+- Software as a Service
+  - you’re essentially renting or using a fully developed applicatio
+  - Email, financial software, messaging applications, and connectivity software are all common examples
 
 
 
