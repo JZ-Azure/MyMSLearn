@@ -2,3 +2,4 @@
 
 Other useful links:
 - [Build great solutions with the Microsoft Azure Well-Architected Framework](https://learn.microsoft.com/en-us/training/paths/azure-well-architected-framework/)
+- [references](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-hybrid-services/)
