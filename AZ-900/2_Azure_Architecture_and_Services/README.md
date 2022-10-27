@@ -1,0 +1,1 @@
+[[Link to material]](https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/)
