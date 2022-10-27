@@ -27,11 +27,11 @@ Azure Arc can help manage your cloud environment, whether it's a public cloud so
 ### Azure VMware Solution
 Azure VMware Solution lets you run your VMware workloads in Azure with seamless integration and scalability.
 
-## consumption-based model
+## Consumption-based model
 - Capital expenditure (CapEx): one-time, up-front expenditure to purchase or secure tangible resources
 - Operational expenditure (OpEx): spending money on services or products over time (The cloud model)
 
-## availability and scalability
+## Availability and scalability
 - availability: uptime 
   - Service availability is part of the service-level agreements (SLAs):
     - 99%
