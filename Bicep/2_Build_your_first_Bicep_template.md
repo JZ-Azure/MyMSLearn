@@ -103,7 +103,7 @@ var appServicePlanSkuName = (environmentType == 'prod') ? 'P2V3' : 'F1'
 ```
 > Note: Syntax for `?` is `condition ? if true: if false`
 
-Deploy an Bicep template with condition parameter
+Deploy an Bicep template with a condition parameter
 ```bash
 az deployment group create \
   --template-file main.bicep \
