@@ -1,4 +1,5 @@
 ## az bicep command group
+[CLI references](https://learn.microsoft.com/en-us/cli/azure/bicep?view=azure-cli-latest)
 
 |Command|Action|
 |:---|:---|
@@ -12,8 +13,6 @@
 |az bicep uninstall | Uninstall Bicep CLI.|
 |az bicep upgrade | Upgrade Bicep CLI to the latest version.|
 |az bicep version | Show the installed version of Bicep CLI.|
-
-[References](https://learn.microsoft.com/en-us/cli/azure/bicep?view=azure-cli-latest)
 
 ## Install bicep and sign in to Azure
 ```bash
