@@ -1,5 +1,6 @@
 ## az bicep command group
 
+---|---
 az bicep build | Build a Bicep file.
 az bicep decompile | Attempt to decompile an ARM template file to a Bicep file.
 az bicep generate-params | Generate parameters file for a Bicep file.
