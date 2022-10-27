@@ -29,5 +29,20 @@ Azure VMware Solution lets you run your VMware workloads in Azure with seamless 
 
 ## consumption-based model
 - Capital expenditure (CapEx): one-time, up-front expenditure to purchase or secure tangible resources
-- operational expenditure (OpEx): spending money on services or products over time
+- Operational expenditure (OpEx): spending money on services or products over time (The cloud model)
+
+## availability and scalability
+- availability: uptime 
+  - Service availability is part of the service-level agreements (SLAs):
+    - 99%
+    - 99.9%
+    - 99.95%
+    - 99.99% in some services
+- scalability: the ability to handle demand
+  - Vertical scaling: increasing or decreasing the capabilities of resources
+  - Horizontal scaling: adding or subtracting the number of resources
+
+
+
+
 
