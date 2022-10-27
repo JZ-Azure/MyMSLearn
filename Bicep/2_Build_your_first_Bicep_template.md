@@ -88,7 +88,20 @@ resource appServiceApp 'Microsoft.Web/sites@2022-03-01' = {
 param storageAccountName string = uniqueString(resourceGroup().id)
 param storageAccountName string = 'toylaunch${uniqueString(resourceGroup().id)}'
 ```
+> Note: `uniqueString()` returns the *same value* for the *same seed*.
 
+### Condition using `?`
+```
+@allowed([
+  'nonprod'
+  'prod'
+])
+param environmentType string
+
+var storageAccountSkuName = (environmentType == 'prod') ? 'Standard_GRS' : 'Standard_LRS'
+var appServicePlanSkuName = (environmentType == 'prod') ? 'P2V3' : 'F1'
+```
+> Note: Syntax for `?` is `condition ? if true: if false`
 
 
 
