@@ -42,3 +42,64 @@ resource appServiceApp 'Microsoft.Web/sites@2022-03-01' = {
 }
 ```
 
+## Parameters and variables
+- Paramneter: lets you bring in values from outside the template file
+  - Types of parameters: `string`. `int`, `bool`, `array`, `object`
+- Variable: defined and set within the template
+- Expression: a powerful feature that helps you to discover values when the template runs
+
+### Declare a parameter with a default value
+```bash
+param appServiceAppName string = 'toy-product-launch-1'
+
+resource appServiceApp 'Microsoft.Web/sites@2022-03-01' = {
+  name: appServiceAppName
+  location: 'westus3'
+  properties: {
+    serverFarmId: appServicePlan.id
+    httpsOnly: true
+  }
+}
+```
+
+### Declare a variable
+```bash
+var appServicePlanName = 'toy-product-launch-plan'
+```
+
+### Declare a parameter using an expression
+```bash
+param location string = resourceGroup().location
+
+resource appServiceApp 'Microsoft.Web/sites@2022-03-01' = {
+  name: appServiceAppName
+  location: location
+  properties: {
+    serverFarmId: appServicePlan.id
+    httpsOnly: true
+  }
+}
+```
+> Note: Some resources in Azure can be deployed only into certain locations. You might need separate parameters to set the locations of these resources.
+
+
+### Create a unique resource name using function `uniqueString()`
+```
+param storageAccountName string = uniqueString(resourceGroup().id)
+param storageAccountName string = 'toylaunch${uniqueString(resourceGroup().id)}'
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
