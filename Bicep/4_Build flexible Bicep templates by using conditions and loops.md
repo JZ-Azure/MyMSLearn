@@ -1,0 +1,1 @@
+[link](https://learn.microsoft.com/en-us/training/modules/build-flexible-bicep-templates-conditions-loops/)
