@@ -14,3 +14,15 @@
 |az bicep version | Show the installed version of Bicep CLI.|
 
 [References](https://learn.microsoft.com/en-us/cli/azure/bicep?view=azure-cli-latest)
+
+## Install bicep and sign in to Azure
+```bash
+az bicep install && az bicep upgrade
+az login
+az account set --subscription YOUR_SUB_NAME
+```
+
+## Deploy a Bicep template to Azure
+```bash
+az deployment group create --template-file FILE_NAME.bicep
+```
