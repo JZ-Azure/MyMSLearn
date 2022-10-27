@@ -11,4 +11,4 @@ Cloud computing is the delivery of computing services over the internet.
   - data and information stored in the cloud
   - access security
 - Responsibility that depends
-![responsibility model]()
+![responsibility model](images/responsibility_model.png)
