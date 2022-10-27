@@ -103,8 +103,113 @@ var appServicePlanSkuName = (environmentType == 'prod') ? 'P2V3' : 'F1'
 ```
 > Note: Syntax for `?` is `condition ? if true: if false`
 
+Deploy an Bicep template with condition parameter
+```bash
+az deployment group create \
+  --template-file main.bicep \
+  --parameters environmentType=nonprod
+```
 
+## Group resources with Modules
+Modules are also a way to make Bicep code even more reusable. You can have a single Bicep module that lots of Bicep templates use. Any Bicep template can be used as a module by another template.
 
+### Outputs
+Declare an output
+```bash
+output appServiceAppName string = appServiceAppName
+```
+Example: output value set to the fully qualified domain name (FQDN) of a public IP address resource
+```bash
+output ipFqdn string = publicIPAddress.properties.dnsSettings.fqdn
+```
+
+### Define a module
+```bash
+module myModule 'modules/mymodule.bicep' = {
+  name: 'MyModule'
+  params: {
+    location: location
+  }
+}
+```
+
+### Module example
+main.bicep
+```bash
+param location string = 'westus3'
+param storageAccountName string = 'toylaunch${uniqueString(resourceGroup().id)}'
+param appServiceAppName string = 'toylaunch${uniqueString(resourceGroup().id)}'
+
+@allowed([
+  'nonprod'
+  'prod'
+])
+param environmentType string
+
+var storageAccountSkuName = (environmentType == 'prod') ? 'Standard_GRS' : 'Standard_LRS'
+
+resource storageAccount 'Microsoft.Storage/storageAccounts@2022-05-01' = {
+  name: storageAccountName
+  location: location
+  sku: {
+    name: storageAccountSkuName
+  }
+  kind: 'StorageV2'
+  properties: {
+    accessTier: 'Hot'
+  }
+}
+
+module appService 'modules/appService.bicep' = {
+  name: 'appService'
+  params: {
+    location: location
+    appServiceAppName: appServiceAppName
+    environmentType: environmentType
+  }
+}
+
+output appServiceAppHostName string = appService.outputs.appServiceAppHostName
+```
+appService.bicep
+```bash
+param location string
+param appServiceAppName string
+
+@allowed([
+  'nonprod'
+  'prod'
+])
+param environmentType string
+
+var appServicePlanName = 'toy-product-launch-plan'
+var appServicePlanSkuName = (environmentType == 'prod') ? 'P2v3' : 'F1'
+
+resource appServicePlan 'Microsoft.Web/serverFarms@2022-03-01' = {
+  name: appServicePlanName
+  location: location
+  sku: {
+    name: appServicePlanSkuName
+  }
+}
+
+resource appServiceApp 'Microsoft.Web/sites@2022-03-01' = {
+  name: appServiceAppName
+  location: location
+  properties: {
+    serverFarmId: appServicePlan.id
+    httpsOnly: true
+  }
+}
+
+output appServiceAppHostName string = appServiceApp.properties.defaultHostName
+```
+Deploy command
+```bash
+az deployment group create \
+  --template-file main.bicep \
+  --parameters environmentType=nonprod
+```
 
 
 
