@@ -19,3 +19,9 @@ Provides managed domain services such as domain join, group policy, lightweight 
 
 ![authentication method](images/authentication_methods.png)
 
+## Zero trust model
+- verify explicitly
+- use least priviledge access
+- assume breach
+- Grants access based on authentication rather than location.
+
