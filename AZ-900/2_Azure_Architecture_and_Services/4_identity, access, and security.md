@@ -17,5 +17,5 @@ Provides managed domain services such as domain join, group policy, lightweight 
 - multifactor authentication
 - passwordless
 
-![authentication method comparison](images/authentication methods.png)
+![authentication method](images/authentication_methods.png)
 
