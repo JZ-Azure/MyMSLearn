@@ -1,1 +1,8 @@
-[Self Study Guide](https://learn.microsoft.com/en-us/users/sandramarin/collections/zopanqdn7w1p1)
+## What is AI?
+- Machine learning
+- Anomaly detection
+- Computer vision
+- Natural language processing
+- knowledge mining
+
+## Azure Machine Learning
