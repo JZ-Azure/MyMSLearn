@@ -31,9 +31,16 @@ An object detection model returns the following information:
 - **Recall**: What percentage of the class predictions made by the model were correct? For example, if there are 10 images of apples, and the model found 7 of them, then the recall is 0.7 (70%).
 - **Mean Average Precision** (mAP): An overall metric that takes into account both precision and recall across all classes.
 
+## Face analysis on Azure
+- Computer Vision, which offers face detection and some basic face analysis, such as returning the bounding box coordinates around an image.
+- Video Indexer, which you can use to detect and identify faces in a video.
+- Face, which offers pre-built algorithms that can detect, recognize, and analyze faces.
+  - Face can return the rectangle coordinates for any human faces that are found in an image, as well as a series of attributes related to those faces.
 
-
-
+## Computer Vision service to read text
+- The Read API
+  - The Read API uses the latest recognition models and is optimized for images that have a significant amount of text or has considerable visual noise.
+  - The Read API takes an image and extracts the words, organizing the results by page and line.
 
 
 
