@@ -1,1 +1,2 @@
-[Self Study Guide](https://learn.microsoft.com/en-us/users/sandramarin/collections/zopanqdn7w1p1)
+## Introduction
+- Microsoft's Computer Vision service gives you access to pre-trained computer vision capabilities.
