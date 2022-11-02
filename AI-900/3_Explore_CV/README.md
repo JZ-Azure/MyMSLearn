@@ -42,8 +42,15 @@ An object detection model returns the following information:
   - The Read API uses the latest recognition models and is optimized for images that have a significant amount of text or has considerable visual noise.
   - The Read API takes an image and extracts the words, organizing the results by page and line.
 
-
-
+## Receipt analysis on Azure
+**Form Recognizer** in Azure provides intelligent form processing capabilities that you can use to automate the processing of data in documents such as forms, invoices, and receipts
+- A pre-built receipt model
+  - Currently the pre-built receipt model is designed to recognize common receipts, **in English**, that are common to the USA.
+  - The maximum file size for the pre-built receipt model is 50 MB
+- Custom models
+- There is a free tier subscription plan for the receipt model along with paid subscriptions. 
+  - For the free tier, only the first two pages will be processed when passing in PDF or TIFF formatted documents.
+- Both the **Form Recognizer** resource and **Cognitive Services** resource provide access to the Form Recognizer service
 
 
 
