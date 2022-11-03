@@ -54,5 +54,25 @@ An object detection model returns the following information:
 
 
 ## Q&A
-- Difference between Custom Vision and Computer Vision:
-  - 
+- Your organization has production lines for packaging fruit. You want to identify misshapen fruit and remove it before it is packed. Which service for computer vision should you use? (Custom Vision)
+  - Azure Custom Vision service enables users to _create their own image classification models_ by training a model using their own images. The organization would be required to supply images of properly shaped fruit and images of misshapen fruit to train the model.
+  - Azure Computer Vision service can analyze images; however, the analysis returned is based on models that the _service already has defined_. These models do not include analysis of fruit; therefore, Azure Computer Vision would not be able to detect misshapen fruit.
+
+- Which of the following are use cases for the Language Understanding service (LUIS)?
+  - Chatbot
+  - Using a voice assistant to control IoT devices
+
+- Which capability of the Translator Text service can convert text from its source script to an alternative script?
+  - Transliteration
+
+- Which of the following is a type of machine learning that could be used to recommend videos to a user of a streaming platform based on their viewing history?
+  - Clustering
+
+- Which of the following can take historical workload data and suggest whether a future failure will occur?
+  - Category prediction
+
+- **Spatial analysis** is the computer vision service that uses algorithms to track movement in a video feed and identify one or more humans.
+
+- You work for a large streaming service that is looking to personalize movie recommendations based on a user’s search history. Which NLP workload should you recommend?
+  - Entity recognition
+    - Entity recognition extracts nouns that are within a body of text. One of the major use cases for entity recognition are recommender services, such as recommending content for streaming services. Entity recognition is the NLP workload that should be recommended.
