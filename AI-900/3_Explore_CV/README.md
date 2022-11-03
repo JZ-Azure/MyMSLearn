@@ -53,4 +53,6 @@ An object detection model returns the following information:
 - Both the **Form Recognizer** resource and **Cognitive Services** resource provide access to the Form Recognizer service
 
 
-
+## Q&A
+- Difference between Custom Vision and Computer Vision:
+  - 
