@@ -147,3 +147,9 @@ An index helps you search for data in a table. Think of an index over a table li
 CREATE INDEX idx_ProductName
 ON Product(Name);
 ```
+
+
+## Azure SQL services and capabilities
+Azure SQL services include:
+- SQL Server on Azure Virtual Machines (IaaS)
+- Azure SQL Managed Instance (PaaS)
