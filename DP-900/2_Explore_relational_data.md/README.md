@@ -12,8 +12,8 @@ Normalization is a term used by database professionals for a schema design proce
 - Use foreign key columns to link related entities.
 
 Without normalization
-![Without normalization](images/SQL_1.png)
+![Without normalization](../images/SQL_1.png)
 
 With normalization
-![With normalization](images/SQL_2.png)
+![With normalization](../images/SQL_2.png)
 
