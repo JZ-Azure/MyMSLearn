@@ -153,3 +153,9 @@ ON Product(Name);
 Azure SQL services include:
 - SQL Server on Azure Virtual Machines (IaaS)
 - Azure SQL Managed Instance (PaaS)
+- Azure SQL Database (PaaS)
+
+## Azure services for open-source databases
+- Azure Database for MySQL (PaaS)
+- Azure Database for MariaDB (PaaS)
+- Azure Database for PostgreSQL (PaaS)
