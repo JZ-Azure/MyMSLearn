@@ -141,7 +141,7 @@ EXEC RenameProduct 201, 'Spanner';
 
 Index
 
-An index helps you search for data in a table. Think of an index over a table like an index at the back of a book. 
+An index helps you search for data in a table. Think of an index over a table like an index at the back of a book. Indexes improve query performance by locating rows with indexed column values.
 
 ```sql
 CREATE INDEX idx_ProductName
