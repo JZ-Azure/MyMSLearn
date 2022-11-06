@@ -11,3 +11,9 @@ Normalization is a term used by database professionals for a schema design proce
 - Uniquely identify each entity instance (row) using a primary key.
 - Use foreign key columns to link related entities.
 
+Without normalization
+![Without normalization](images/SQL_1.png)
+
+With normalization
+![With normalization](images/SQL_2.png)
+
