@@ -78,12 +78,15 @@ ACID semantics:
 - **Database administrators** manage databases, assigning permissions to users, storing backup copies of data and restore data in the event of a failure.
   - A database administrator is responsible for the design, implementation, maintenance, and operational aspects of on-premises and cloud-based database systems.
   - The database administrator is also responsible for managing the security of the data in the database, granting privileges over the data, granting or denying access to users as appropriate.
+  - For example, back up the database and restore it when data is lost or corrupted.
 - **Data engineers** manage infrastructure and processes for data integration across the organization, applying data cleaning routines, identifying data governance rules, and implementing pipelines to transfer and transform data between systems.
   - A data engineer collaborates with stakeholders to design and implement data-related workloads, including data ingestion pipelines, cleansing and transformation activities, and data stores for analytical workloads.
   - They own the management and monitoring of data pipelines to ensure that data loads perform as expected.
+  - For example, define a data pipeline for an ETL process.
 - **Data analysts** explore and analyze data to create visualizations and charts that enable organizations to make informed decisions.
   - They're responsible for exploring data to identify trends and relationships, designing and building analytical models, and enabling advanced analytics capabilities through reports and visualizations.
   - A data analyst processes raw data into relevant insights based on identified business requirements to deliver relevant insights.
+  - For example, creating dashboards and reports.
 
 ## Data services
 
@@ -130,3 +133,10 @@ Azure HDInsight is an Azure service that provides Azure-hosted clusters for popu
 Azure Stream Analytics is a real-time stream processing engine that captures a stream of data from an input, applies a query to extract and manipulate data from the input stream, and writes the results to an output for analysis or further processing.
 
 ### Azure Data Explorer
+Azure Data Explorer is a standalone service that offers the same high-performance querying of log and telemetry data as the _Azure Synapse Data Explorer runtime_ in Azure Synapse Analytics.
+
+### Microsoft Purview
+Microsoft Purview provides a solution for enterprise-wide data governance and discoverability. 
+
+### Microsoft Power BI
+Microsoft Power BI is a platform for analytical data modeling and reporting that data analysts can use to create and share interactive data visualizations.
