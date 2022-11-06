@@ -67,7 +67,7 @@ ACID semantics:
 - Durability
   - when a transaction has been committed, it will remain committed. After the account transfer transaction has completed, the revised account balances are persisted so that even if the database system were to be switched off, the committed transaction would be reflected when it is switched on again.
 
-## analytical data processing
+## Analytical data processing
 - **Data lakes** are common in large-scale data analytical processing scenarios, where a large volume of _file-based data_ must be collected and analyzed. (Files)
 - **Data warehouses** are an established way to store data in a _relational schema_ that is optimized for read operations – primarily queries to support reporting and data visualization. (DBs)
   - A data warehouse is a relational database in which the schema is optimized for queries that read data.
