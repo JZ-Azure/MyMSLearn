@@ -50,15 +50,29 @@ Two common types of analytical data store:
 - **Azure SQL Database** or **Azure Synapse Analytics**, or **Azure Databricks**: Used to persist the processed results in a database table for querying and analysis.
 - **Microsoft Power BI**: Used to generate real time data visualizations in reports and dashboards.
 
+### Apache Spark on Microsoft Azure
+You can use Spark on Microsoft Azure in the following services:
+- Azure Synapse Analytics
+- Azure Databricks
+- Azure HDInsight
+
+Spark can be used to run code (usually written in Python, Scala, or Java) in parallel across multiple cluster nodes, enabling it to process very large volumes of data efficiently. Spark can be used for both batch processing and stream processing.
 
 
+### Azure Data Explorer
+Azure Data Explorer is a standalone Azure service for efficiently analyzing data.  The service is also encapsulated as a runtime in Azure Synapse Analytics, where it is referred to as Azure Synapse Data Explorer; enabling you to build and manage analytical solutions that combine SQL, Spark, and Data Explorer analytics in a single workspace.
+
+### Kusto Query Language (KQL)
+To query Data Explorer tables, you can use Kusto Query Language (KQL), a language that is specifically optimized for fast read performance – particularly with telemetry data that includes a timestamp attribute.
+
+To learn more about Kusto Query Language, see the Write your first query with [Kusto Query Language](https://learn.microsoft.com/en-us/training/modules/write-first-query-kusto-query-language/) module
 
 
-
-
-
-
-
-
+# Fundamentals of data visualization
+## Learning objectives
+- Describe a high-level process for creating reporting solutions with Microsoft Power BI
+- Describe core principles of analytical data modeling
+- Identify common types of data visualization and their uses
+- Create an interactive report with Power BI Desktop
 
 
