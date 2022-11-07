@@ -32,3 +32,7 @@ It is common that such architectures contain a mix of four workloads: relational
 
 Relational databases are not well suited for high-throughput workloads or massive insert/update batches. Instead, they best handle small transactions targeting one or few records.
 
+- Descriptive: What's happening
+- Diagnositc: Why it happened
+- Predictive: What will happen
+- Prescriptive: What should I do
