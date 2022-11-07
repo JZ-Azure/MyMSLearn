@@ -82,7 +82,11 @@ Azure Cosmos DB is a highly scalable cloud database service for NoSQL data.
 - Cosmos DB is a highly scalable database management system. 
 - Cosmos DB automatically allocates space in a container for your partitions, and each partition can grow up to **10 GB** in size. 
 - Indexes are created and maintained automatically. There's virtually no administrative overhead.
-- Internally, Cosmos DB has been used by many of Microsoft's products for mission critical applications at global scale, including Skype, Xbox, Microsoft 365, Azure, and many others.
+- Internally, Cosmos DB has been used by many of Microsoft's products for mission critical applications at global scale, including
+  - Skype
+  - Xbox
+  - Microsoft 365
+  - Azure
 - Externally, Cosmos DB is highly suitable for the following scenarios:
   - IoT and telematics
   - Retail and marketing
