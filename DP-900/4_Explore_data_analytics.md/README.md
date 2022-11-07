@@ -26,3 +26,39 @@ Two common types of analytical data store:
 - **Azure HDInsight** is an Azure service that supports multiple open-source data analytics cluster types.
 
 # Fundamentals of real-time analytics
+## Learning objectives
+- Compare batch and stream processing
+- Describe common elements of streaming data solutions
+- Describe features and capabilities of Azure Stream Analytics
+- Describe features and capabilities of Spark Structured Streaming on Azure
+- Describe features and capabilities of Azure Synapse Data Explorer
+
+### Real-time analytics in Azure
+- Azure Stream Analytics (PaaS)
+- Spark Structured Streaming
+- Azure Data Explorer
+
+### _Sources_ for stream processing
+- **Azure Event Hubs**: A data ingestion service that you can use to manage queues of event data, ensuring that each event is processed in order, exactly once.
+- **Azure IoT Hub**: A data ingestion service that is similar to Azure Event Hubs, but which is optimized for managing event data from Internet-of-things (IoT) devices.
+- **Azure Data Lake Store Gen 2**: A highly scalable storage service that is often used in batch processing scenarios, but which can also be used as a source of streaming data.
+- **Apache Kafka**: An open-source data ingestion solution that is commonly used together with Apache Spark. You can use Azure HDInsight to create a Kafka cluster.
+
+### _Sinks_ for stream processing
+- **Azure Event Hubs**: Used to queue the processed data for further downstream processing.
+- **Azure Data Lake Store Gen 2** or **Azure blob storage**: Used to persist the processed results as a file.
+- **Azure SQL Database** or **Azure Synapse Analytics**, or **Azure Databricks**: Used to persist the processed results in a database table for querying and analysis.
+- **Microsoft Power BI**: Used to generate real time data visualizations in reports and dashboards.
+
+
+
+
+
+
+
+
+
+
+
+
+
