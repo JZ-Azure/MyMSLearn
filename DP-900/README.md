@@ -36,3 +36,7 @@ Relational databases are not well suited for high-throughput workloads or massiv
 - Diagnositc: Why it happened
 - Predictive: What will happen
 - Prescriptive: What should I do
+
+Cosmos DB Table API supports multi-region _writes_. Cosmos DB Table API and Azure Table storage support multi-region _reads_ replicas. 
+
+Azure Table lets you store semi-structured data. Unlike in a relational table, each row can have different columns of data. 
