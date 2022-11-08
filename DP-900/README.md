@@ -42,3 +42,5 @@ Cosmos DB Table API supports multi-region _writes_. Cosmos DB Table API and Azur
 Azure Table lets you store semi-structured data. Unlike in a relational table, each row can have different columns of data. 
 
 ![AzureDataService](images/AzureDataService.png)
+
+![AzureDataService_2](images/AzureDataService_2.png)
