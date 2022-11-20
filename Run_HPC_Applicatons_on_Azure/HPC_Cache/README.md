@@ -23,14 +23,14 @@ HPC Cache wouldn't be the best fit if:
 |Data|The size of the workload should be at least 1 TB.|
 
 ## Examples
-*Should financial institutions use HPC Cache to run simulations?*
+**Should financial institutions use HPC Cache to run simulations?**  
 Financial simulations are a great fit for HPC Cache. The dataset of historic stock market data is unchanging. Hundreds of clients use the same data to run several simulations. The file sizes are gigabytes in size and the total working set is over 1 TB.
 
-Should users use HPC Cache for home directories?
+**Should users use HPC Cache for home directories?**  
 Using home directories isn't a good fit for HPC Cache. The dataset is only a few gigabytes in size. Only a single client accesses the data. The data is often changing. Data is stored in an SMB file system.
 
-Should Engineering Design Automation use HPC Cache to accelerate a tools repository?
+**Should Engineering Design Automation use HPC Cache to accelerate a tools repository?**  
 Accelerating Engineering Design Automation (EDA) tools repositories is a good fit for HPC Cache. Several clients use the tools repo while designing and architecting. The repo is large and is accessed via NFS.
 
-Suppose a genetic research company is considering Azure HPC Cache for a workload that compares gigabyte DNA files to the same reference DNA file. The company uses hundreds of cloud clients running an NFS workload. What would make this good fit even better?
+**Suppose a genetic research company is considering Azure HPC Cache for a workload that compares gigabyte DNA files to the same reference DNA file. The company uses hundreds of cloud clients running an NFS workload. What would make this good fit even better?**  
 If the company installed Azure ExpressRoute to maximize bandwidth
