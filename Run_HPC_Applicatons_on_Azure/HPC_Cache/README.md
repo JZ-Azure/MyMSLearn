@@ -33,4 +33,4 @@ Using home directories isn't a good fit for HPC Cache. The dataset is only a few
 Accelerating Engineering Design Automation (EDA) tools repositories is a good fit for HPC Cache. Several clients use the tools repo while designing and architecting. The repo is large and is accessed via NFS.
 
 **Suppose a genetic research company is considering Azure HPC Cache for a workload that compares gigabyte DNA files to the same reference DNA file. The company uses hundreds of cloud clients running an NFS workload. What would make this good fit even better?**  
-If the company installed Azure ExpressRoute to maximize bandwidth. Learn more about [ExpressRoute](https://learn.microsoft.com/en-us/azure/expressroute/expressroute-introduction).
+If the company installed Azure ExpressRoute to maximize bandwidth. (Learn more about [ExpressRoute](https://learn.microsoft.com/en-us/azure/expressroute/expressroute-introduction).)
