@@ -23,7 +23,7 @@ HPC Cache wouldn't be the best fit if:
 |Data|The size of the workload should be at least 1 TB.|
 
 ## Examples
-Should financial institutions use HPC Cache to run simulations?
+*Should financial institutions use HPC Cache to run simulations?*
 Financial simulations are a great fit for HPC Cache. The dataset of historic stock market data is unchanging. Hundreds of clients use the same data to run several simulations. The file sizes are gigabytes in size and the total working set is over 1 TB.
 
 Should users use HPC Cache for home directories?
