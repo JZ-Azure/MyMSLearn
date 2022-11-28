@@ -46,3 +46,38 @@ Azure Storage offers four configuration options:
 1. Azure Queue: A messaging store for reliable messaging between application components
 1. Azure Table: A NoSQL store for no-schema storage of structured data
 
+## Understand data storage in Azure Data Lake Storage
+Azure Data Lake Storage is a Hadoop-compatible data repository that **can store any size or type of data**. Data Lake Storage Gen2 users take advantage of Azure Blob storage, a hierarchical file system, and performance tuning that helps them process big-data analytics solutions. In Gen2, developers can access data through either the Blob API or the Data Lake file API. **Gen2 can also act as a storage layer** for a wide range of compute platforms, including **Azure Databricks**, **Hadoop**, and **Azure HDInsight**, but data doesn't need to be loaded into the platforms.
+
+### Where to use Data Lake Storage Gen2
+Data Lake Storage is designed to **store massive amounts of data for big-data analytics**. For example, Contoso Life Sciences is a cancer research center that analyzes petabytes of genetic data, patient data, and records of related sample data. Data Lake Storage Gen2 reduces computation times, making the research faster and less expensive.
+
+The compute aspect that sits above this storage can vary. The aspect can include platforms like HDInsight, Hadoop, and Azure Databricks.
+
+### Data ingestion
+To ingest data into your system, use **Azure Data Factory**, **Apache Sqoop**, **Azure Storage Explorer**, the **AzCopy tool**, **PowerShell**, or **Visual Studio**. To use the File Upload feature to import file sizes above 2 GB, use PowerShell or Visual Studio. AzCopy supports a maximum file size of 1 TB and automatically splits data files that exceed 200 GB.
+
+### Queries
+- In Gen 1, data engineers query data by using the** U-SQL language**. 
+- In Gen 2, use the **Azure Blob Storage API** or the **Azure Data Lake System (ADLS) API**.
+
+## Understand Azure Cosmos DB
+Azure Cosmos DB is a **globally distributed**, **multimodel database**. You can deploy it by using several API models:
+- SQL API
+- MongoDB API (for semistructured data)
+- Cassandra API (for wide columns)
+- Gremlin API (for graph databases)
+- Table API
+
+### When to use Azure Cosmos DB
+Deploy Azure Cosmos DB when you need a **NoSQL database** of the supported API model, at planet scale, and with low latency performance. Currently, Azure Cosmos DB supports **five-nines uptime** (99.999 percent). It can support **response times below 10 ms** when it's provisioned correctly.
+
+### Data ingestion
+To ingest data into Azure Cosmos DB, use Azure Data Factory, create an application that writes data into Azure Cosmos DB through its API, upload JSON documents, or directly edit the document.
+
+### Data security
+Azure Cosmos DB supports data encryption, IP firewall configurations, and access from virtual networks. Data is encrypted automatically. User authentication is based on tokens, and Azure Active Directory provides role-based security.
+
+Azure Cosmos DB meets many security compliance certifications, including **HIPAA**, FedRAMP, SOX, and HITRUST.
+
+## Understand Azure SQL Database
