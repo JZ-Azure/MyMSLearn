@@ -19,3 +19,12 @@
 - Extract, load, and transform (ELT)
   - In ELT, the data is immediately extracted and loaded into a large data repository, such as **Azure Cosmos DB** or **Azure Data Lake Storage**. This change in process reduces the resource contention on source systems.
   - This process is typically used for ingesting data from an on-premises database into the cloud.
+
+
+# Learning objectives
+- Contrast structured data with nonstructured data.
+- Explore common Microsoft Intelligent Data Platform technologies and identify when to use them.
+- List additional technologies that support the common data platform technologies.
+
+## Explore data types
+- Structured data
