@@ -41,8 +41,10 @@ Four types of **NoSQL databases**:
 
 ## Understand data storage in Azure Storage
 Azure Storage offers four configuration options:
-1. Azure Blob: A scalable object store for text and binary data
-1. Azure Files: Managed file shares for cloud or on-premises deployments
+1. **Azure Blob**: A scalable object store for text and binary data
+  - If you need to provision a data store that will store but not query data, your cheapest option is to set up a storage account as a Blob store. 
+  - Blob storage works well with images and unstructured data, and it's the cheapest way to store data in Azure.  
+1. **Azure Files**: Managed file shares for cloud or on-premises deployments
 1. Azure Queue: A messaging store for reliable messaging between application components
 1. Azure Table: A NoSQL store for no-schema storage of structured data
 
