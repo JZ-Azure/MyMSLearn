@@ -28,3 +28,21 @@
 
 ## Explore data types
 - Structured data
+  - Data structure is defined at design time. This means it's designed before any information is loaded into the system.
+- Nonstructured data
+  - In nonrelational systems, the data structure isn't defined at design time, and data is typically loaded in its raw format. The data structure is defined only when the data is read.
+  - Nonrelational systems can also support semistructured data such as JSON file formats.
+
+Four types of **NoSQL databases**:  
+1. Key-value store: Stores key-value pairs of data in a table structure.
+1. Document database: Stores documents that are tagged with metadata to aid document searches.
+1. Graph database: Finds relationships between data points by using a structure that's composed of vertices and edges.
+1. Column database: Stores data based on columns rather than rows. Columns can be defined at the query's runtime, allowing flexibility in the data that's returned performantly.
+
+## Understand data storage in Azure Storage
+Azure Storage offers four configuration options:
+1. Azure Blob: A scalable object store for text and binary data
+1. Azure Files: Managed file shares for cloud or on-premises deployments
+1. Azure Queue: A messaging store for reliable messaging between application components
+1. Azure Table: A NoSQL store for no-schema storage of structured data
+
