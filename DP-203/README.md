@@ -1,9 +1,11 @@
 [Self Study Guide](https://learn.microsoft.com/en-us/certifications/azure-data-engineer/)
 
-
 [Azure - Review your storage options](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/considerations/storage-options)
 
 [Azure Storage documentation](https://learn.microsoft.com/en-us/azure/storage/)
+
+[Choose an Azure solution for data transfer](https://learn.microsoft.com/en-us/azure/storage/common/storage-choose-data-transfer-solution)
+
 
 - Azure Files
   - [Azure Files and Azure NetApp Files comparison](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-netapp-comparison)
