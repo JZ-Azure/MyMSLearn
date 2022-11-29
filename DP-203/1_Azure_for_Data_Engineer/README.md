@@ -123,3 +123,8 @@ Data engineers use Azure Stream Analytics to process streaming data and respond 
 
 # Understand Azure HDInsight
 Azure HDInsight provides technologies to help you ingest, process, and analyze big data. It supports batch processing, data warehousing, IoT, and data science.
+
+# Understand other Azure data services
+- Databricks
+- Data Factory
+- Azure Purview
