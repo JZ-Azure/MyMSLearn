@@ -38,3 +38,5 @@
 - Azure Queues
   - Allows for asynchronous message queueing between application components.
 
+![images/files-decision-tree.png](images/files-decision-tree.png)
+[Azure Storage migration overview](https://learn.microsoft.com/en-us/azure/storage/common/storage-migration-overview?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json)
