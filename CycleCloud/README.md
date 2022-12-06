@@ -4,6 +4,8 @@
 
 [Integrating LDAP into CycleCloud Cluster for User authentication](https://techcommunity.microsoft.com/t5/azure-high-performance-computing/integrating-ldap-into-cyclecloud-cluster-for-user-authentication/ba-p/3588364)
 
+[High-performance computing on InfiniBand enabled H-series and N-series VMs](https://learn.microsoft.com/en-us/azure/virtual-machines/workloads/hpc/overview)
+
 # What is Azure CycleCloud?
 At its most basic, a High Performance Computing (HPC) system is a pool of computational resources backed by performant file systems and interconnected by low-latency networks. These computational resources are usually managed by HPC Schedulers, software applications that schedule jobs.
 
