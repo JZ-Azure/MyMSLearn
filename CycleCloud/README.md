@@ -1,5 +1,3 @@
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_Hugv386nsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 [MSLearn Cyclecloud](https://learn.microsoft.com/en-us/azure/cyclecloud/overview?view=cyclecloud-8)
 
 **Multi-Region**: 
@@ -9,6 +7,8 @@
 [Integrating LDAP into CycleCloud Cluster for User authentication](https://techcommunity.microsoft.com/t5/azure-high-performance-computing/integrating-ldap-into-cyclecloud-cluster-for-user-authentication/ba-p/3588364)
 
 **VM Images**: [Azure HPC VM Images](https://techcommunity.microsoft.com/t5/azure-compute-blog/azure-hpc-vm-images/ba-p/977094), [azhpc-images repo at GitHub](https://github.com/Azure/azhpc-images)
+
+**Video Tutorial**: [Deploy end-to-end HPC environment with CycleCloud | Azure HPC](https://www.youtube.com/watch?v=_Hugv386nsg&t=5s)
 
 TODO:
 
