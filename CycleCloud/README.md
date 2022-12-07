@@ -6,6 +6,10 @@
 **LDAP**: 
 [Integrating LDAP into CycleCloud Cluster for User authentication](https://techcommunity.microsoft.com/t5/azure-high-performance-computing/integrating-ldap-into-cyclecloud-cluster-for-user-authentication/ba-p/3588364)
 
+**VM Images**: [Azure HPC VM Images](https://techcommunity.microsoft.com/t5/azure-compute-blog/azure-hpc-vm-images/ba-p/977094)
+
+[azhpc-images repo at GitHub](https://github.com/Azure/azhpc-images)
+
 TODO:
 
 [High-performance computing on InfiniBand enabled H-series and N-series VMs](https://learn.microsoft.com/en-us/azure/virtual-machines/workloads/hpc/overview)
