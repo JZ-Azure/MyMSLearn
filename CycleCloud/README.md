@@ -1,6 +1,10 @@
 [MSLearn Cyclecloud](https://learn.microsoft.com/en-us/azure/cyclecloud/overview?view=cyclecloud-8)
 
+**Multi-Region**
+
 [Deploy Multi-Region HPC clusters in Azure with CycleCloud](https://techcommunity.microsoft.com/t5/azure-high-performance-computing/deploy-multi-region-hpc-clusters-in-azure-with-cyclecloud/ba-p/3061269)
+
+**LDAP**
 
 [Integrating LDAP into CycleCloud Cluster for User authentication](https://techcommunity.microsoft.com/t5/azure-high-performance-computing/integrating-ldap-into-cyclecloud-cluster-for-user-authentication/ba-p/3588364)
 
