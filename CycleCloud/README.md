@@ -7,12 +7,9 @@
   - [Azure HPC VM Images](https://techcommunity.microsoft.com/t5/azure-compute-blog/azure-hpc-vm-images/ba-p/977094)
   - [azhpc-images repo at GitHub](https://github.com/Azure/azhpc-images)
 - **Video Tutorial**: [Deploy end-to-end HPC environment with CycleCloud | Azure HPC](https://www.youtube.com/watch?v=_Hugv386nsg&t=5s)
-
-TODO:
-
-[High-performance computing on InfiniBand enabled H-series and N-series VMs](https://learn.microsoft.com/en-us/azure/virtual-machines/workloads/hpc/overview)
-
-[Best Practices for using HB and HC VMs](https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/hb-hc-best-practices?view=cyclecloud-8)
+- TODO:
+  - [High-performance computing on InfiniBand enabled H-series and N-series VMs](https://learn.microsoft.com/en-us/azure/virtual-machines/workloads/hpc/overview)
+  - [Best Practices for using HB and HC VMs](https://learn.microsoft.com/en-us/azure/cyclecloud/how-to/hb-hc-best-practices?view=cyclecloud-8)
 
 # What is Azure CycleCloud?
 At its most basic, a High Performance Computing (HPC) system is a pool of computational resources backed by performant file systems and interconnected by low-latency networks. These computational resources are usually managed by HPC Schedulers, software applications that schedule jobs.
