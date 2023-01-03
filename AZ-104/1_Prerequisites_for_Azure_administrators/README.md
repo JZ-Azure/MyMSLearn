@@ -30,3 +30,30 @@ RBAC provides fine-grained access management for Azure resources, enabling you t
 ## Azure Resource Manager
 - Azure Resource Manager templates are written in JSON, which allows you to express data stored as an object (such as a virtual machine) in text. 
 - A JSON document is essentially a collection of key-value pairs.
+```json
+{
+    "$schema": "http://schema.management.​azure.com/schemas/2019-04-01/deploymentTemplate.json#",​
+    "contentVersion": "",​
+    "parameters": {},​
+    "variables": {},​
+    "functions": [],​
+    "resources": [],​
+    "outputs": {}​
+}
+```
+
+## Bicep templates
+[Azure Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview) is a domain-specific language (DSL) that uses declarative syntax to deploy Azure resources.
+- The JSON syntax to create an ARM template can be verbose and require complicated expressions. 
+- Bicep syntax reduces that complexity and improves the development experience. 
+- Bicep is a transparent abstraction over ARM template JSON and doesn't lose any of the JSON template capabilities.
+- Bicep provides many improvements over JSON for template authoring, including:
+  - Simpler syntax
+  - Modules
+  - Automatic dependency management
+  - Type validation and IntelliSense
+
+## [Azure Quickstart Templates](https://azure.microsoft.com/resources/templates/)
+
+
+
